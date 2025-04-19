@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Stay - Shangri-La Beach Resort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="booking.css">
+    <script src="js/burger-menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <section class="header-content">
+            <section class="logo-weather-container">
+                <img src="./logo.svg" alt="Shangri-La Resort Logo" class="logo">
+                <section class="weather-widget">
+                    <section class="weather-content">
+                        <section class="weather-icon"></section>
+                        <section class="weather-info">
+                            <span class="weather-temp"></span>
+                            <span class="weather-desc"></span>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <button class="burger-menu" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Accommodations</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="booking-hero">
+            <h1>Book Your Stay</h1>
+            <p>Begin your journey to paradise</p>
+        </section>
+
+        <section class="booking-form-section">
+            <article class="form-container">
+                <form id="booking-form">
+                    <section class="form-grid">
+                        <article class="form-group">
+                            <label for="room-type"><i class="fas fa-bed"></i> Room Type</label>
+                            <select id="room-type" name="room-type" required>
+                                <option value="">Select a room type</option>
+                                <option value="ocean-view">Ocean View Deluxe Room</option>
+                                <option value="beachfront">Beachfront Suite</option>
+                                <option value="garden">Garden View Family Room</option>
+                                <option value="premium">Premium Oceanfront Suite</option>
+                                <option value="accessible">Accessible Room</option>
+                            </select>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="check-in"><i class="fas fa-calendar-alt"></i> Check-in Date</label>
+                            <input type="date" id="check-in" name="check-in" required>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="check-out"><i class="fas fa-calendar-alt"></i> Check-out Date</label>
+                            <input type="date" id="check-out" name="check-out" required>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="guests"><i class="fas fa-user-friends"></i> Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select number of guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                            </select>
+                        </article>
+
+                        <article class="form-group full-width">
+                            <label for="name"><i class="fas fa-user"></i> Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </article>
+
+                        <article class="form-group full-width">
+                            <label for="special-requests"><i class="fas fa-comment"></i> Special Requests</label>
+                            <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+                        </article>
+                    </section>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-check"></i> Confirm Booking
+                    </button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-content">
+            <section class="footer-social">
+                <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram page">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" aria-label="Visit our Twitter page">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" aria-label="Visit our YouTube channel">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </section>
+            <section class="footer-legal">
+                <p>&copy; 2025 Shangri-La Beach Resort | Cancun, Mexico</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </section>
+        </section>
+    </footer>
+    <script src="./weather.js"></script>
+</body>
+</html>

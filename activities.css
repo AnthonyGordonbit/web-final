@@ -1,0 +1,569 @@
+.activities-hero {
+    background: linear-gradient(rgba(245, 179, 214, 0.8), rgba(141, 28, 88, 0.7)),
+                url('assets/Images/activities-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+    margin: -2rem -2rem 2rem -2rem;
+}
+
+.activities-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.activities-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.onsite-activities,
+.local-excursions,
+.booking-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.activities-grid,
+.excursions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.activity-category,
+.excursion-category {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.activity-category:hover,
+.excursion-category:hover {
+    transform: translateY(-5px);
+}
+
+.activity-category h3,
+.excursion-category h3 {
+    color: pink;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.activity-list,
+.excursion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-list li,
+.excursion-list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.activity-list i,
+.excursion-list i {
+    color: pink;
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.tag {
+    display: inline-block;
+    background: white;
+    color: pink;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.sub-activities {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+}
+
+.sub-activities li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.info-container {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.info-list i {
+    color: pink;
+    font-size: 1.2rem;
+}
+
+/* Spa Services Dropdown Styles */
+.spa-services {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: pink;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-toggle.active {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    display: none;
+    padding: 2rem;
+}
+
+.dropdown-content.active {
+    display: block;
+}
+
+.spa-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+}
+
+.spa-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-category {
+    margin-bottom: 2rem;
+}
+
+.service-category h3 {
+    color: pink;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid pink;
+    padding-bottom: 0.5rem;
+}
+
+.service-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.service-header h4 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: bold;
+    color: pink;
+}
+
+.duration {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+}
+
+.description {
+    color: #555;
+    font-size: 0.95rem;
+    margin: 0.5rem 0 0;
+}
+
+.spa-notes {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
+.spa-notes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spa-notes li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+    color: #555;
+}
+
+.spa-notes i {
+    color: pink;
+}
+
+.enhancement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.enhancement-grid .service-item {
+    margin-bottom: 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: pink;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: pink;
+    transform: translateY(-3px);
+}
+
+.back-to-top i {
+    font-size: 1.5rem;
+}
+
+/* Footer Styles */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-social {
+    margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.footer-social a:hover {
+    color: #ffeb3b;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 968px) {
+    .spa-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activities-grid,
+    .excursions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spa-image img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .activities-hero {
+        padding: 4rem 1.5rem;
+        margin: -1rem -1rem 1.5rem -1rem;
+    }
+
+    .activities-hero h1 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .activities-hero p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .onsite-activities,
+    .local-excursions,
+    .booking-info {
+        padding: 1rem;
+    }
+
+    .activity-category,
+    .excursion-category {
+        padding: 1.25rem;
+    }
+
+    .activity-list li,
+    .excursion-list li {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dropdown-header {
+        padding: 1rem 1.5rem;
+    }
+
+    .dropdown-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .dropdown-content {
+        padding: 1rem;
+    }
+
+    .service-category h3 {
+        font-size: 1.3rem;
+    }
+
+    .service-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .service-item {
+        padding: 0.75rem;
+    }
+
+    .service-header h4 {
+        font-size: 1.1rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .enhancement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spa-notes {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .back-to-top i {
+        font-size: 1.2rem;
+    }
+
+    .footer-social a {
+        font-size: 1.3rem;
+        margin: 0 0.8rem;
+    }
+
+    /* Header layout for mobile */
+    .header-content {
+        display: grid;
+        grid-template-areas:
+            "logo burger"
+            "weather weather";
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0;
+        width: 100%;
+    }
+
+    .logo-weather-container {
+        grid-area: logo;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        height: 50px;
+        width: auto;
+    }
+
+    .burger-menu {
+        grid-area: burger;
+        justify-self: end;
+    }
+
+    .weather-widget {
+        grid-area: weather;
+        width: auto;
+        margin: 0.5rem 0;
+        padding: 0.4rem 1rem;
+    }
+
+    .weather-content {
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    .weather-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .weather-temp {
+        font-size: 0.9rem;
+    }
+
+    .weather-desc {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .activities-hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .activity-category h3,
+    .excursion-category h3 {
+        font-size: 1.2rem;
+    }
+
+    .sub-activities {
+        padding-left: 0.5rem;
+    }
+
+    .tag {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .info-list li {
+        font-size: 0.9rem;
+        gap: 0.5rem;
+    }
+
+    .info-list i {
+        font-size: 1rem;
+    }
+
+    .dropdown-toggle {
+        font-size: 1.2rem;
+    }
+
+    .service-item {
+        margin-bottom: 1rem;
+    }
+
+    .price {
+        font-size: 0.95rem;
+    }
+
+    .duration {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-content {
+        gap: 0.3rem;
+    }
+    .logo {
+        height: 40px;
+    }
+    .weather-widget {
+        padding: 0.3rem 0.8rem;
+    }
+    .weather-icon {
+        width: 24px;
+        height: 24px;
+    }
+    .weather-temp {
+        font-size: 0.85rem;
+    }
+    .weather-desc {
+        font-size: 0.75rem;
+    }
+}

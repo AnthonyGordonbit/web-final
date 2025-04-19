@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodations - Shangri-La Beach Resort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="accommodations.css">
+    <script src="js/burger-menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-weather-container">
+                <img src="./logo.svg" alt="Shangri-La Resort Logo" class="logo">
+                <div class="weather-widget">
+                    <div class="weather-content">
+                        <div class="weather-icon"></div>
+                        <div class="weather-info">
+                            <span class="weather-temp"></span>
+                            <span class="weather-desc"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="burger-menu" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Accommodations</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+               
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="accommodations-hero">
+            <h1>Our Luxurious Guest Rooms</h1>
+            <p>Experience unparalleled comfort and breathtaking views in our range of elegantly appointed guest rooms and suites.</p>
+        </section>
+
+        <section class="room-types">
+            <div class="room-container">
+                <article class="room-detail">
+                    <div class="room-slider">
+                        <button class="slider-btn prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-images">
+                            <img src="./photos/hotel-1191726_1920.jpg" alt="Ocean View Deluxe Room - Main View" class="active">
+                            <img src="./photos/palm-tree.jpg" alt="Ocean View Deluxe Room - Entry">
+                            <img src="./photos/beach-swing.jpg" alt="Ocean View Deluxe Room">
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h2>Ocean View Deluxe Room</h2>
+                        <p>Indulge in stunning panoramic views of the ocean from your private balcony. These rooms offer a perfect blend of comfort and style.</p>
+                        <ul class="amenities-list">
+                            <li><i class="fas fa-bed"></i> King-sized bed</li>
+                            <li><i class="fas fa-door-open"></i> Private balcony with ocean view</li>
+                            <li><i class="fas fa-shower"></i> En-suite bathroom with rain shower</li>
+                            <li><i class="fas fa-couch"></i> Seating area</li>
+                            <li><i class="fas fa-wifi"></i> Complimentary Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Flat-screen TV</li>
+                            <li><i class="fas fa-glass-martini-alt"></i> Mini-bar</li>
+                        </ul>
+                        <a href="booking.html" class="book-now-btn">Book Now</a>
+                    </div>
+                </article>
+
+                <article class="room-detail">
+                    <div class="room-slider">
+                        <button class="slider-btn prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-images">
+                            <img src="./photos/double.jpg" alt="Beachfront Suite - Main View" class="active">
+                            <img src="./photos/palm-tree.jpg" alt="Beachfront Suite Room">
+                            <img src="./photos/sunset.jpg" alt="Beachfront Suite - Beach">
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h2>Beachfront Suite</h2>
+                        <p>Step directly onto the sand from your spacious suite. Enjoy the ultimate beachfront experience with added luxury and privacy.</p>
+                        <ul class="amenities-list">
+                            <li><i class="fas fa-bed"></i> King-sized bed</li>
+                            <li><i class="fas fa-couch"></i> Separate living area</li>
+                            <li><i class="fas fa-umbrella-beach"></i> Private terrace with direct beach access</li>
+                            <li><i class="fas fa-bath"></i> En-suite bathroom with soaking tub and separate shower</li>
+                            <li><i class="fas fa-utensils"></i> Dining area</li>
+                            <li><i class="fas fa-wifi"></i> Complimentary Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Multiple flat-screen TVs</li>
+                            <li><i class="fas fa-glass-martini-alt"></i> Mini-bar</li>
+                        </ul>
+                        <a href="booking.html" class="book-now-btn">Book Now</a>
+                    </div>
+                </article>
+
+                <article class="room-detail">
+                    <div class="room-slider">
+                        <button class="slider-btn prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-images">
+                            <img src="./photos/resort-drone.jpg" alt="Garden View Room - Main View" class="active">
+                            <img src="./photos/couple.jpg" alt="Garden View Room - Bedroom">
+                            <img src="./photos/pexels-olly-3757657.jpg" alt="Garden View Room - Pool">
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h2>Garden View Family Room</h2>
+                        <p>Perfect for families, these rooms offer ample space and a tranquil view of our lush gardens.</p>
+                        <ul class="amenities-list">
+                            <li><i class="fas fa-bed"></i> Two double beds</li>
+                            <li><i class="fas fa-door-open"></i> Private balcony with garden view</li>
+                            <li><i class="fas fa-shower"></i> En-suite bathroom</li>
+                            <li><i class="fas fa-couch"></i> Seating area</li>
+                            <li><i class="fas fa-wifi"></i> Complimentary Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Flat-screen TV</li>
+                            <li><i class="fas fa-glass-martini-alt"></i> Mini-bar</li>
+                        </ul>
+                        <a href="booking.html" class="book-now-btn">Book Now</a>
+                    </div>
+                </article>
+
+                <article class="room-detail">
+                    <div class="room-slider">
+                        <button class="slider-btn prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-images">
+                            <img src="./photos/resort-2495217_1920.jpg" alt="Premium Suite - Main View" class="active">
+                            <img src="./photos/king.jpg" alt="Premium Suite - Room">
+                            <img src="./photos/pexels-polina-tankilevitch-3736520.jpg" alt="Premium Suite - Outside">
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h2>Premium Oceanfront Suite with Plunge Pool</h2>
+                        <p>Experience the epitome of luxury. This exclusive suite features a private plunge pool and unparalleled ocean views.</p>
+                        <ul class="amenities-list">
+                            <li><i class="fas fa-bed"></i> King-sized bed</li>
+                            <li><i class="fas fa-couch"></i> Separate living and dining areas</li>
+                            <li><i class="fas fa-swimming-pool"></i> Expansive private terrace with plunge pool</li>
+                            <li><i class="fas fa-umbrella-beach"></i> Sun loungers</li>
+                            <li><i class="fas fa-bath"></i> En-suite bathroom with Jacuzzi tub</li>
+                            <li><i class="fas fa-concierge-bell"></i> Butler service upon request</li>
+                            <li><i class="fas fa-wifi"></i> Complimentary premium Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Multiple smart TVs</li>
+                            <li><i class="fas fa-glass-cheers"></i> Fully stocked mini-bar</li>
+                        </ul>
+                        <a href="booking.html" class="book-now-btn">Book Now</a>
+                    </div>
+                </article>
+
+                <article class="room-detail">
+                    <div class="room-slider">
+                        <button class="slider-btn prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-images">
+                            <img src="./photos/pink-sand.jpg" alt="Accessible Room - Main View" class="active">
+                            <img src="./photos/single.jpg" alt="Accessible Room - Bedroom">
+                            <img src="./photos/pexels-valeriya-31235409.jpg" alt="Accessible Room - Outside">
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h2>Accessible Room</h2>
+                        <p>Designed for guests with mobility needs, these rooms offer comfort and accessibility features.</p>
+                        <ul class="amenities-list">
+                            <li><i class="fas fa-bed"></i> King-sized bed</li>
+                            <li><i class="fas fa-wheelchair"></i> Spacious layout for wheelchair accessibility</li>
+                            <li><i class="fas fa-shower"></i> Accessible bathroom with grab bars</li>
+                            <li><i class="fas fa-universal-access"></i> Lowered amenities</li>
+                            <li><i class="fas fa-volume-up"></i> Visual and auditory alert systems</li>
+                            <li><i class="fas fa-wifi"></i> Complimentary Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Flat-screen TV</li>
+                        </ul>
+                        <a href="booking.html" class="book-now-btn">Book Now</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram page">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" aria-label="Visit our Twitter page">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" aria-label="Visit our YouTube channel">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Shangri-La Beach Resort | Cancun, Mexico</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script src="./room-slider.js"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
