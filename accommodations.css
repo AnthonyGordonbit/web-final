@@ -1,6 +1,6 @@
 .accommodations-hero {
     background: linear-gradient(rgba(245, 179, 214, 0.8), rgba(141, 28, 88, 0.7)), 
-                url('assets/Images/hotel-hero.jpg');
+                url('./photos/hotel2.jpg');
     background-size: cover;
     background-position: center;
     color: white;

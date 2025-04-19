@@ -1,12 +1,12 @@
 .activities-hero {
     background: linear-gradient(rgba(245, 179, 214, 0.8), rgba(141, 28, 88, 0.7)),
-                url('assets/Images/activities-hero.jpg');
+                url('./photos/hotel2.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
     padding: 6rem 2rem;
-    margin: -2rem -2rem 2rem -2rem;
+    margin: 0rem -2rem 2rem -2rem;
 }
 
 .activities-hero h1 {
@@ -279,7 +279,7 @@
     margin-bottom: 0;
 }
 
-/* Back to Top Button */
+
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -315,7 +315,7 @@
     font-size: 1.5rem;
 }
 
-/* Footer Styles */
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -445,7 +445,7 @@
         margin: 0 0.8rem;
     }
 
-    /* Header layout for mobile */
+
     .header-content {
         display: grid;
         grid-template-areas:

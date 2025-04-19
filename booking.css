@@ -239,7 +239,6 @@ footer a:hover {
         font-size: 1rem;
     }
 }
-
 @keyframes submitPulse {
     0% {
         transform: scale(1);
